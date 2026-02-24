@@ -15,7 +15,7 @@ def fibo(n):
 
     while True:
         newnum = num1+num2
-        if newnum > n:
+        if newnum >= n:
             break
         lister.append(newnum)
         num1 = num2
@@ -24,4 +24,4 @@ def fibo(n):
     
     print(lister)
 
-fibo(10)
+fibo(14)
