@@ -5,3 +5,5 @@ def add_numbers():
 
 
 add_numbers()
+
+print('Hello Adam')
